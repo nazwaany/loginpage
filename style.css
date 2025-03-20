@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Hind+Madurai:wght@300;400;500;600;700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merienda:wght@300..900&family=Permanent+Marker&family=Ponomar&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+.boxberanda {
+    background: rgba(0 , 0 , 0 , 0.4) url(./gambar/poto\ daun.webp);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 590px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+
+.judulberanda {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.deskripsiberanda {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.tulisansignoutberanda {
+    margin: 60px auto;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+    padding: 15px 0px;
+    border-radius: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+}
+
+.tulisansignoutberandalink :hover {
+    background-color: black;
+    color: white;
+}
+
+.tulisansignoutberandalink :active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.tulisansignoutberandalink {
+    text-decoration: none;
+}
+
+.tulisansigninberanda {
+    margin: 50px auto;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    width: 500px;
+    text-align: center;
+    padding: 15px 0px;
+    border: 1.5px solid white;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+}
+
+.tulisansigninberandalink {
+    text-decoration: none;
+}
+
+.tulisansigninberandalink :hover {
+    background-color: white;
+    color: black;
+}
+
+.tulisansigninberandalink :active {
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 600px) {
+
+    .judulberanda {
+        font-size: 50px;
+        margin-top: 80px;
+    }
+
+    .deskripsiberanda {
+        width: 500px;
+    }
+
+    .tulisansignoutberanda {
+        margin: 40px auto;
+        width: 350px;
+    }
+
+    .tulisansigninberanda {
+        width: 350px;
+    }
+}
+
+@media (max-width:400px) {
+    .boxberanda {
+        background: rgba(0 , 0 , 0 , 0.4) url(./gambar/poto\ daun\ -\ Copy\(1\).png);
+        background-blend-mode: darken;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 915px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+    }
+
+    .judulberanda {
+        font-family: "Kanit", sans-serif;
+        font-weight: 500;
+        font-size: 60px;
+        text-align: left;
+        margin-top: 100px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        width: 300px;
+        color: white;
+    }
+
+    .deskripsiberanda {
+        font-family: "Kanit", sans-serif;
+        font-weight: 300;
+        width: 300px;
+        text-align: left;
+        margin: 5px 20px;
+        color: white;
+    }
+
+    .tulisansignoutberanda {
+        margin-top: 70px;
+        width: 300px;
+    }
+
+    .tulisansigninberanda {
+        width: 300px;
+    }
+}
+
+
+/* Buat Akun */
+
+.boxbuatakun {
+    height: 560px;
+    display: flex;
+}
+
+.gambarbuatakun {
+    background: rgba(0 , 0 , 0 , 0.4) url(./gambar/daun\ buat\ akun.jpeg);
+    background-blend-mode: darken;
+    background-size: cover;
+    width: 60%;
+}
+
+.formbuatakun {
+    background-color: rgb(0, 0, 0);
+    width: 40%;
+    padding-left: 60px;
+}
+
+.judulbuatakun {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    color: white;
+}
+
+.namabuatakun , .passwordbuatakun , .emailbuatakunnama {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 20px;
+}
+
+.inputnamabuatakun , .buatakunpassword , .emailbuatakun{
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 40px;
+    width: 80%;
+}
+
+.kirimbuatakun {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    border: 2px solid rgb(255, 255, 255);
+    width: 80%;
+    border-radius: 15px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    margin-top: 20px;
+}
+
+.kirimbuatakun:hover {
+    color: black;
+    background-color: white;
+}
+
+.kirimbuatakun:active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* Masuk */
+
+.masukbox {
+    background-color: darkseagreen;
+    height: 560px;
+    display: flex;
+}
+
+.masukform {
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    padding-left: 40px;
+}
+
+.judulmasuk {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+}
+
+.namamasuk , .passwordmasuk {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.masukkannamamasuk , .masukkanpassword{
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 40px;
+    width: 80%;
+}
+
+.buttonmasuk {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    border: 2px solid rgb(0, 0, 0);
+    width: 80%;
+    border-radius: 15px;
+    height: 40px;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.buttonmasuk:hover {
+    color: white;
+    background-color: black;
+}
+
+.buttonmasuk:active {
+    color: black;
+    background-color: white;
+}
+
+.masukgambar {
+    background : rgba(0 , 0 , 0 , 0.4) url(./gambar/daun\ masuk.jpeg);
+    background-blend-mode: darken;
+    background-size: cover;
+    width: 60%;
+}
